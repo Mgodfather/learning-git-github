@@ -10,3 +10,5 @@ btn.addEventListener('click', () => {
         btn.innerText = 'Show'
     }
 })
+
+console.log('hii mayank');
