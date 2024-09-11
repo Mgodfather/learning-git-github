@@ -6,3 +6,30 @@ body{
     margin: 0;
     padding: 0;
 }
+
+button{
+    cursor: pointer;
+    background-color: antiquewhite;
+    margin: 1rem;
+    padding: 4px 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid blueviolet;
+}
+
+.my-intro{
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: blueviolet;
+    display: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.my-intro.show{
+    display: block;
+    display: inline-block;
+    vertical-align: middle;
+}
