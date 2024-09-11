@@ -31,5 +31,4 @@ button{
 .my-intro.show{
     display: block;
     display: inline-block;
-    vertical-align: middle;
 }
